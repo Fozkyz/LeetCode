@@ -1,6 +1,8 @@
 #include <iostream>
 #include "13.Roman_To_Integer.h"
 
+using namespace RomanToInteger;
+
 void RomanToIntegerProblem::PrintSolution()
 {
 	Solution* solution = new Solution();

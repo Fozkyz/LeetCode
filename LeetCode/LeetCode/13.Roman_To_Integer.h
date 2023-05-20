@@ -4,20 +4,23 @@
 
 // Runtime : 7ms -> 87%
 // Memory : 6MB -> 72.92%
-class RomanToIntegerProblem : Problem {
-public:
-    RomanToIntegerProblem(std::string s = "MCMXCIV") : romanString(s) {}
+namespace RomanToInteger {
+    class RomanToIntegerProblem : Problem {
+    public:
+        RomanToIntegerProblem(std::string s = "MCMXCIV") : romanString(s) {}
 
-    void PrintSolution();
+        void PrintSolution();
 
-    void SetRomanString(std::string);
-    std::string GetRomanString();
+        void SetRomanString(std::string);
+        std::string GetRomanString();
 
-private:
-    std::string romanString;
-};
+    private:
+        std::string romanString;
+    };
 
-class Solution {
-public:
-    int romanToInt(std::string s);
-};
+    class Solution {
+    public:
+        int romanToInt(std::string s);
+    };
+
+}

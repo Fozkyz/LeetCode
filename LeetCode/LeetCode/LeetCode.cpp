@@ -3,8 +3,8 @@
 
 int main()
 {
-	RomanToIntegerProblem* problem = new RomanToIntegerProblem("MMCMXIV");
-
+	RomanToInteger::RomanToIntegerProblem* problem = new RomanToInteger::RomanToIntegerProblem("MMCMXIV");
+	
 	problem->PrintSolution();
 
 	delete problem;
