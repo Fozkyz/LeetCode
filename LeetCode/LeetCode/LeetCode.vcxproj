@@ -130,12 +130,14 @@
     <ClCompile Include="13.Roman_to_Integer.cpp" />
     <ClCompile Include="234.Palindrome_Linked_List.cpp" />
     <ClCompile Include="383.Ransom_Note.cpp" />
+    <ClCompile Include="412.Fizz_Buzz.cpp" />
     <ClCompile Include="LeetCode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="13.Roman_To_Integer.h" />
     <ClInclude Include="234.Palindrome_Linked_List.h" />
     <ClInclude Include="383.Ransom_Note.h" />
+    <ClInclude Include="412.Fizz_Buzz.h" />
     <ClInclude Include="Problem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
