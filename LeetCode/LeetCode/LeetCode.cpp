@@ -6,6 +6,7 @@
 #include "876.Middle_of_the_Linked_List.h"
 #include "1337.The_K_Weakest_Rows_in_a_Matrix.h"
 #include "1342.Number_of_Steps_to_Reduce_to_Zero.h"
+#include "1672.Richest_Customer_Wealth.h"
 
 int main()
 {
@@ -22,7 +23,9 @@ int main()
 		{1, 1, 0, 0, 0},
 		{1, 1, 1, 1, 1} };
 	KWeakestRowsInMatrix::KWeakestRowsInMatrixProblem* problem = new KWeakestRowsInMatrix::KWeakestRowsInMatrixProblem(m, 3);*/
-	NumberOfStepsToReduceToZero::NumberOfStepsToReduceToZeroProblem* problem = new NumberOfStepsToReduceToZero::NumberOfStepsToReduceToZeroProblem(14);
+	//NumberOfStepsToReduceToZero::NumberOfStepsToReduceToZeroProblem* problem = new NumberOfStepsToReduceToZero::NumberOfStepsToReduceToZeroProblem(14);
+	std::vector<std::vector<int>> acc = { {1, 5},{7, 3},{3, 5} };
+	RichestClientWealth::RichestClientWealthProblem* problem = new RichestClientWealth::RichestClientWealthProblem(acc);
 
 	problem->PrintSolution();
 
