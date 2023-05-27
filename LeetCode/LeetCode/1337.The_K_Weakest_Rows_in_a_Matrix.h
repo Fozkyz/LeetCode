@@ -3,6 +3,8 @@
 #include <vector>
 #include "Problem.h"
 
+// Runtime : 12ms -> 70.90%
+// Memory : 10.4MB -> 87.22%
 namespace KWeakestRowsInMatrix {
 	class KWeakestRowsInMatrixProblem : Problem {
 	public:
