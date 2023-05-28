@@ -36,6 +36,15 @@
     <ClCompile Include="1337.The_K_Weakest_Rows_in_a_Matrix.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="1342.Number_of_Steps_to_Reduce_to_Zero.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="1672.Richest_Customer_Wealth.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="1.Two_Sum.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="13.Roman_To_Integer.h">
@@ -57,6 +66,15 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="1337.The_K_Weakest_Rows_in_a_Matrix.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="1342.Number_of_Steps_to_Reduce_to_Zero.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="1672.Richest_Customer_Wealth.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="1.Two_Sum.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

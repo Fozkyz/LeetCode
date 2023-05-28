@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.Two_Sum.cpp" />
     <ClCompile Include="13.Roman_to_Integer.cpp" />
     <ClCompile Include="1337.The_K_Weakest_Rows_in_a_Matrix.cpp" />
     <ClCompile Include="1342.Number_of_Steps_to_Reduce_to_Zero.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="LeetCode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1.Two_Sum.h" />
     <ClInclude Include="13.Roman_To_Integer.h" />
     <ClInclude Include="1337.The_K_Weakest_Rows_in_a_Matrix.h" />
     <ClInclude Include="1342.Number_of_Steps_to_Reduce_to_Zero.h" />
