@@ -132,6 +132,7 @@
     <ClCompile Include="1337.The_K_Weakest_Rows_in_a_Matrix.cpp" />
     <ClCompile Include="1342.Number_of_Steps_to_Reduce_to_Zero.cpp" />
     <ClCompile Include="1672.Richest_Customer_Wealth.cpp" />
+    <ClCompile Include="2.Add_Two_Numbers.cpp" />
     <ClCompile Include="234.Palindrome_Linked_List.cpp" />
     <ClCompile Include="383.Ransom_Note.cpp" />
     <ClCompile Include="412.Fizz_Buzz.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="1337.The_K_Weakest_Rows_in_a_Matrix.h" />
     <ClInclude Include="1342.Number_of_Steps_to_Reduce_to_Zero.h" />
     <ClInclude Include="1672.Richest_Customer_Wealth.h" />
+    <ClInclude Include="2.Add_Two_Numbers.h" />
     <ClInclude Include="234.Palindrome_Linked_List.h" />
     <ClInclude Include="383.Ransom_Note.h" />
     <ClInclude Include="412.Fizz_Buzz.h" />
