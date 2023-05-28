@@ -8,6 +8,7 @@
 #include "1342.Number_of_Steps_to_Reduce_to_Zero.h"
 #include "1672.Richest_Customer_Wealth.h"
 #include "1.Two_Sum.h"
+#include "2.Add_Two_Numbers.h"
 
 int main()
 {
@@ -27,9 +28,12 @@ int main()
 	//NumberOfStepsToReduceToZero::NumberOfStepsToReduceToZeroProblem* problem = new NumberOfStepsToReduceToZero::NumberOfStepsToReduceToZeroProblem(14);
 	/*std::vector<std::vector<int>> acc = { {1, 5},{7, 3},{3, 5} };
 	RichestClientWealth::RichestClientWealthProblem* problem = new RichestClientWealth::RichestClientWealthProblem(acc);*/
-	std::vector<int> nums = { 2, 7, 11, 15 };
-	TwoSum::TwoSumProblem* problem = new TwoSum::TwoSumProblem(nums, 3);
-
+	/*std::vector<int> nums = { 2, 7, 11, 15 };
+	TwoSum::TwoSumProblem* problem = new TwoSum::TwoSumProblem(nums, 3);*/
+	AddTwoNumbers::ListNode* l1 = new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9)))))));
+	AddTwoNumbers::ListNode* l2 = new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9, new AddTwoNumbers::ListNode(9))));
+	AddTwoNumbers::AddTwoNumbersProblem* problem = new AddTwoNumbers::AddTwoNumbersProblem(l1, l2);
+	
 	problem->PrintSolution();
 
 	delete problem;
